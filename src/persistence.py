@@ -26,6 +26,3 @@ if __name__ == '__main__':
     #plt.savefig('m_cos.jpg')
     plt.plot(k, l_p)
     plt.savefig('l_p.jpg')
-    k_array = [0., 1., 2., 3., 4., 5., 6., 7., 8. ,9., 10., 15., 20.]
-    c = np.array([persistence_length(i, 1.0) for i in k_array])
-    print(c)
